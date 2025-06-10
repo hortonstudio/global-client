@@ -1,6 +1,0 @@
-{
-  "extends": "@finsweet/tsconfig",
-  "compilerOptions": {
-    "moduleResolution": "bundler"
-  }
-}
