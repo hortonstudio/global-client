@@ -1,0 +1,14 @@
+{
+  "name": "@hortonstudio/main-util-navbar",
+  "version": "1.0.0",
+  "description": "Navbar utilities for Horton Studio Main",
+  "main": "navbar.js",
+  "type": "module",
+  "keywords": [
+    "utility",
+    "navbar",
+    "webflow"
+  ],
+  "author": "Horton Studio",
+  "license": "ISC"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "@hortonstudio/main-smooth-scroll",
+  "version": "1.0.0",
+  "description": "Smooth scroll auto-init for Horton Studio Main",
+  "main": "smooth-scroll.js",
+  "type": "module",
+  "keywords": [
+    "scroll",
+    "smooth",
+    "webflow"
+  ],
+  "author": "Horton Studio",
+  "license": "ISC"
+}

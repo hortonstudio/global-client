@@ -1,0 +1,29 @@
+/* transition */
+body .transition {display: block}
+.w-editor .transition {display: none;}
+.no-scroll-transition {overflow: hidden; position: relative;}
+
+/* splittext */
+.line-mask, .word-mask, .char-mask {
+    padding-bottom: .1em;
+    margin-bottom: -.1em;
+    padding-inline: .1em;
+    margin-inline: -.1em;
+}
+
+
+/* scroll cleanliness */
+html, body {
+    overscroll-behavior: none;
+    scrollbar-gutter: stable;
+  }
+
+/* TOC focus handling - only show focus outline for keyboard navigation */
+[data-hs-toc] div[id]:focus:not(:focus-visible) {
+    outline: none !important;
+}
+
+[data-hs-toc] div[id]:focus-visible {
+    outline: 2px solid #007bff !important;
+    outline-offset: 2px;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "@hortonstudio/main-anim-hero",
+  "version": "1.0.0",
+  "description": "Hero animations for Horton Studio Main",
+  "main": "hero.js",
+  "type": "module",
+  "keywords": [
+    "animation",
+    "hero",
+    "gsap",
+    "webflow"
+  ],
+  "author": "Horton Studio",
+  "license": "ISC"
+}

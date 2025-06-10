@@ -1,0 +1,25 @@
+{
+  "name": "@hortonstudio/main-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Animation and utility library for client websites",
+  "keywords": [
+    "animation",
+    "gsap",
+    "webflow",
+    "utilities",
+    "scroll"
+  ],
+  "author": "Horton Studio",
+  "license": "ISC",
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm -r dev",
+    "lint": "pnpm -r lint",
+    "test": "pnpm -r test"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "esbuild": "^0.19.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "@hortonstudio/main-util-progress",
+  "version": "1.0.0",
+  "description": "Scroll progress utilities for Horton Studio Main",
+  "main": "scroll-progress.js",
+  "type": "module",
+  "keywords": [
+    "utility",
+    "scroll",
+    "progress",
+    "webflow"
+  ],
+  "author": "Horton Studio",
+  "license": "ISC"
+}

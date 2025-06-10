@@ -1,0 +1,14 @@
+{
+  "name": "@hortonstudio/main-util-toc",
+  "version": "1.0.0",
+  "description": "Table of contents utilities for Horton Studio Main",
+  "main": "toc.js",
+  "type": "module",
+  "keywords": [
+    "utility",
+    "toc",
+    "webflow"
+  ],
+  "author": "Horton Studio",
+  "license": "ISC"
+}

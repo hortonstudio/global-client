@@ -1,0 +1,24 @@
+{
+  "name": "@hortonstudio/main",
+  "version": "1.2.12",
+  "description": "Core animation and utility library for client websites",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [
+    "animation",
+    "gsap",
+    "webflow",
+    "utilities"
+  ],
+  "author": "Horton Studio",
+  "license": "ISC",
+  "dependencies": {
+    "@hortonstudio/main-anim-hero": "workspace:*",
+    "@hortonstudio/main-anim-text": "workspace:*",
+    "@hortonstudio/main-anim-transition": "workspace:*",
+    "@hortonstudio/main-util-navbar": "workspace:*",
+    "@hortonstudio/main-util-toc": "workspace:*",
+    "@hortonstudio/main-util-progress": "workspace:*",
+    "@hortonstudio/main-smooth-scroll": "workspace:*"
+  }
+}

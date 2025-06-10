@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CDN Version Debug Test</title>
+</head>
+<body>
+    <h1>CDN Version Debug Test</h1>
+    <div id="results"></div>
+
+    <!-- Test with major version @1 -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@hortonstudio/main@1/index.js" data-hs-main data-hs-anim-hero></script>
+
+    <script>
+        setTimeout(() => {
+            const results = document.getElementById('results');
+            
+            // Check what scripts are found
+            const scripts = [...document.querySelectorAll('script[type="module"]')];
+            results.innerHTML += `<h2>Found Scripts:</h2>`;
+            scripts.forEach((script, i) => {
+                results.innerHTML += `<p>Script ${i}: ${script.src}</p>`;
+            });
+
+            // Check if hsmain loaded and what scripts it found
+            if (window.hsmain) {
+                results.innerHTML += `<h2>HSMAIN Scripts Found:</h2>`;
+                results.innerHTML += `<p>Found ${window.hsmain.scripts.length} matching scripts</p>`;
+                window.hsmain.scripts.forEach((script, i) => {
+                    results.innerHTML += `<p>HSMAIN Script ${i}: ${script.src}</p>`;
+                });
+            } else {
+                results.innerHTML += `<p>HSMAIN not loaded</p>`;
+            }
+        }, 2000);
+    </script>
+</body>
+</html>
